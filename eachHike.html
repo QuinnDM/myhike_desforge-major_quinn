@@ -35,7 +35,7 @@
     <!-- Other libraries and styles of your own -->
     <!-------------------------------------------->
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
 
 </head>
 
@@ -49,13 +49,10 @@
 
     <!-- the body of your page goes here -->
     <!-- stuff -->
-    <!-- the body of your page goes here -->
-    <div class="container text-center py-4">
-        <div class="rounded-circle overflow-hidden">
-            <img class="responsive" src="./images/elmo.jpg" alt="">
-        </div>
-        <h1>Welcome to Quinn Hikes</h1>
-        <a href="login.html" class="btn btn-warning" role="button">Log in</a>
+    <div class="container">
+        <h1><span id="hikeName"> this hike</span></h1>
+        <img class="hike-img responsive" src="" />
+        <div id="details-go-here"></div>
     </div>
 
     <!-- our own footer goes here-->
@@ -66,11 +63,8 @@
     <!---------------------------------------------->
     <script src="./scripts/firebaseAPI_TEAM99.js"></script>
     <script src="./scripts/skeleton.js"></script>
-    <script src="./scripts/script.js"></script>
-
-    <script>
-        logout();
-    </script>
+    <script src="./scripts/eachHike.js"></script>
+    <!-- <script src="./scripts/script.js"></script> -->
 
 </body>
 
